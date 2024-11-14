@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "es5",                        // Компиляция в ECMAScript 5
+      "lib": ["dom", "es6"],                   // Используем библиотеки DOM и ES6
+      "jsx": "react",                          // Включаем поддержку JSX (для React)
+      "moduleResolution": "node",              // Поддержка разрешения модулей по Node.js
+      "module": "esnext",                      // Использование ESNext модулей
+      "strict": true,                          // Включение строгой типизации
+      "allowSyntheticDefaultImports": true,  // Добавь этот флаг
+      "baseUrl": "./",                         // Базовый путь для поиска модулей
+      "paths": {
+        "*": ["node_modules/*", "src/*"]      // Путь поиска для модулей
+      }
+    },
+    "include": [
+      "src/**/*" ,                              // Включаем все файлы в папке src
+      "src", "typings.d.ts"
+      
+    ],
+    "exclude": [
+      "node_modules"                           // Исключаем папку node_modules
+    ]
+  }
+  
+  //b49b3816-2f61-4a36-8345-d5a8260a76e8
